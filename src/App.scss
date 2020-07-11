@@ -1,0 +1,28 @@
+.app {
+  width: 100%;
+  height: 100%;
+
+  &__wrapper {
+    position: absolute;
+    top: calc(25%);
+    width: calc(100%);
+
+    .app__title {
+      text-align: center;
+      padding: 0 10px;
+      display: flex;
+      flex-direction: column;
+
+      span {
+        &:first-child {
+          font-size: 3rem;
+          color: #cccccc;
+        }
+        &:last-child {
+          font-size: 1.5rem;
+          color: #999999;
+        }
+      }
+    }
+  }
+}
