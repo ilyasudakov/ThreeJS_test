@@ -56,7 +56,7 @@ const Terrain = () => {
       <meshPhongMaterial
         attach="material"
         color={'#ffffff'}
-        specular={'#000000'}
+        specular={'#ffffff'}
         shininess={0}
         // flatShading
         // wireframe
