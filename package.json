@@ -11,6 +11,7 @@
     "react-scripts": "3.4.1",
     "react-three-fiber": "^4.2.13",
     "sass": "^1.26.10",
+    "serve": "^11.3.2",
     "three": "^0.118.3"
   },
   "scripts": {
